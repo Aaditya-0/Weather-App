@@ -2,7 +2,7 @@
 
 A modern, responsive weather application built with React and Node.js that provides real-time weather updates and 5-day forecasts for any location worldwide.
 
-![Weather App Preview](./docs/preview.png)
+
 
 ## ✨ Features
 
