@@ -35,7 +35,7 @@ A modern, responsive weather application built with React and Node.js that provi
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/yourusername/weather-app.git
+git clone https://github.com/Aaditya-0/weather-app.git
 cd weather-app
 ```
 
@@ -210,9 +210,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 If you have any questions or need help, please open an issue or contact:
 
-- Email: your.email@example.com
-- GitHub: [@yourusername](https://github.com/yourusername)
-- Website: [your-website.com](https://your-website.com)
+- Email: work.aaditya01@gmail.com
+- GitHub: [@Aaditya-0](https://github.com/Aaditya-0)
 
 ---
 
