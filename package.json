@@ -1,0 +1,64 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A modern weather application built with React",
+  "author": "Your Name",
+  "license": "MIT",
+  "homepage": "https://yourname.github.io/weather-app",
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint src/**/*.{js,jsx}",
+    "lint:fix": "eslint src/**/*.{js,jsx} --fix",
+    "format": "prettier --write src/**/*.{js,jsx,css,md}",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "server": "node server/index.js",
+    "dev": "concurrently \"npm start\" \"npm run server\""
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0",
+    "eslint": "^8.25.0",
+    "eslint-config-react-app": "^7.0.1",
+    "gh-pages": "^4.0.0",
+    "prettier": "^2.7.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "keywords": [
+    "weather",
+    "react",
+    "javascript",
+    "weather-app",
+    "openweathermap",
+    "forecast",
+    "responsive"
+  ]
+}
