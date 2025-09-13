@@ -2,8 +2,6 @@
 
 A modern, responsive weather application built with React and Node.js that provides real-time weather updates and 5-day forecasts for any location worldwide.
 
-
-
 ## ✨ Features
 
 - **Real-time Weather Data**: Get current weather conditions for any city
@@ -35,7 +33,7 @@ A modern, responsive weather application built with React and Node.js that provi
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/Aaditya-0/weather-app.git
+git clone https://github.com/YOUR_USERNAME/weather-app.git
 cd weather-app
 ```
 
@@ -51,17 +49,20 @@ cd ..
 ```
 
 ### Environment Setup
-1. Create a `.env` file in the root directory:
+1. Get your free API key from [OpenWeatherMap](https://openweathermap.org/api)
+2. Create a `.env` file in the root directory:
 ```env
 REACT_APP_OPENWEATHER_API_KEY=your_api_key_here
 ```
 
-2. If using the backend, create a `.env` file in the `server` directory:
+3. If using the backend, create a `.env` file in the `server` directory:
 ```env
 OPENWEATHER_API_KEY=your_api_key_here
 PORT=5000
 NODE_ENV=development
 ```
+
+**Note:** Replace `your_api_key_here` with your actual OpenWeatherMap API key.
 
 ## 🔧 Usage
 
@@ -168,50 +169,13 @@ npm test -- --watch
 npm test -- --coverage
 ```
 
-## 🚢 Deployment
-
-### Frontend Only (GitHub Pages)
-```bash
-npm run deploy
-```
-
-### Full Stack (Heroku)
-1. Set up Heroku CLI
-2. Create a new Heroku app
-3. Set environment variables in Heroku dashboard
-4. Deploy using Git
-
-### Docker
-```bash
-# Build and run with Docker
-docker build -t weather-app .
-docker run -p 3000:3000 weather-app
-```
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
-
-- [OpenWeatherMap](https://openweathermap.org/) for providing weather data API
-- [React](https://reactjs.org/) for the amazing frontend framework
-- Weather icons and emojis used in the interface
-
 ## 📞 Support
 
-If you have any questions or need help, please open an issue or contact:
-
-- Email: work.aaditya01@gmail.com
-- GitHub: [@Aaditya-0](https://github.com/Aaditya-0)
+If you have any questions or need help, please open an issue on GitHub.
 
 ---
 
